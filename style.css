@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0px;
+    
+}
+h1{
+    font-family: 'Dancing Script', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700; 
+    color: #3339A6;
+    /* controla a sua casa no rosa*/
+}
+h2{
+    font-family: 'Dancing Script', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700; 
+    /*controla os titulos das divs*/
+}
+a{
+    font-family: 'Dancing Script', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700; 
+    font-size: 100px;
+    /*adiciona estilo de font do menu*/
+}
+body::-webkit-scrollbar {
+width: 0px;               /* controla a barra lateral 0px */
+}
+
+body::-webkit-scrollbar-track {
+background: #3339a646;        /* controla a cor da barra lateral*/
+}
+
+div::-webkit-scrollbar{
+width: 5px;  /*controla a barra nas divs*/
+
+}
+div::-webkit-scrollbar-track {
+background: #3339a646;        /* color of the tracking area */
+}
+
+main{
+overflow-x: hidden;
+background-image: url("./images/fundomedio.png");
+height: 100vh;
+width: 100vw;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.closebtn{
+position: relative;
+top: -60px;
+left: 100%;
+cursor: pointer;
+
+}
+.inside{
+display: flex;
+justify-content: center;
+}
+
+#div1{
+padding: 20px;
+background-color: #3339a646;
+color: yellow;
+display: flex;
+width: max-content;
+overflow-y: scroll;
+max-width: 90%;
+flex-direction: column;
+align-content: space-around;
+justify-content: flex-start;
+max-height: 90%;
+border-radius: 8px;
+width: 90%;
+position: relative;
+overflow-x: hidden;
+}
+
+#div2{
+padding: 20px;
+background-color: #3339a646;
+color: yellow;
+display: flex;
+width: max-content;
+overflow-y: scroll;
+max-width: 90%;
+flex-direction: column;
+align-content: space-around;
+justify-content: flex-start;
+max-height: 90%;
+border-radius: 8px;
+width: 90%;
+position: relative;
+overflow-x: hidden;
+}
+
+#div3{
+padding: 20px;
+background-color: #3339a646;
+color: yellow;
+display: flex;
+width: max-content;
+overflow-y: scroll;
+max-width: 90%;
+flex-direction: column;
+align-content: center;
+justify-content: flex-start;
+max-height: 90%;
+border-radius: 8px;
+width: 90%;
+position: relative;
+overflow-x: hidden;
+}
+
+#div4{
+padding: 20px;
+background-color: #3339a646;
+color: yellow;
+display: flex;
+width: max-content;
+overflow-y: scroll;
+max-width: 90%;
+flex-direction: column;
+align-content: space-around;
+justify-content: flex-start;
+max-height: 90%;
+border-radius: 8px;
+width: 90%;
+position: relative;
+overflow-x: hidden;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 600px) {
+main{
+    background-image: url("./images/fundomedio2.png");
+}
+} 
+@media screen and (min-width: 900px) {
+main{
+    background-image: url("./images/fundomedio3.png");
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+} 
+@media screen and (min-width: 1400px) {
+main{
+    background-image: url("./images/fundomedio3.png");
+}
+} 
+
+@media screen and (min-width: 2000px) {
+main{
+    background-image: url("./images/fundogrande.png");
+}
+}
