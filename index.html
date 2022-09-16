@@ -45,12 +45,13 @@
         </div>
       </nav>
       <main id="main" class="col-lg">
-        <h1 style="position:absolute;" class="front" style="color: yellow;">A sua casa no Rosa!</h1> 
+        <h1 style="position:absolute;" class="front" style="color: #24449f; font-size:xx-large;
+        font-weight: bolder;">A sua casa no Rosa!</h1> 
           <div id="div1" style="display: none;">
             <h2>A praia do Rosa</h2>
             <buttton class="closebtn" onclick="fechar(1)">x</buttton>
             <div class="inside">
-              <img src="./images/praiaesol.png" alt="praia e sol" class="img-fluid" style="height: 30%; width: 30%;">
+              <img src="./images/praiaesolredondo.png" alt="praia e sol" class="img-fluid" style="height: 30%; width: 30%;">
               <p>Repleta de belezas naturais na cidade de Imbituba está seu Cartão postal, a praia do Rosa está somente a 90 km da capital Florianópolis, e é cercado por outras belezas naturais como a vizinha Barra de Ibiraquera, a lagoa de ibiraquera, a cidade de Garopaba, a Guarda do Embaú que fica 35 km ao norte e a cidade histórica de Laguna que está 40 km ao sul.</p>
             </div>
             <div class="inside">
@@ -80,7 +81,7 @@
               <img src="./images/piscinaredonda.png" alt="praia e sol" class="img-fluid" style="height: 30%; width: 30%;">
             </div>
           </div>
-          <div id="div3" style="display: none;" >
+          <div id="div3" style="display: none; margin-top:-200px;" >
             <h2>Reservas</h2>
             <buttton class="closebtn"onclick="fechar(3)">x</buttton>
             <div class="inside">
@@ -127,7 +128,7 @@
       const fechar = (div)=>{
         let divF = document.getElementsByClassName("front")
         for(l = 0; l < divF.length; l++){
-          divF[l].style.color = "black"
+          divF[l].style.color = "#24449f"
         }
         
         var divMain = document.getElementById("div"+div);
